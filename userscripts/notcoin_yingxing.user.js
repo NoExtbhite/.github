@@ -5,6 +5,7 @@
 // @match       https://clicker.joincommunity.xyz/clicker*
 // @homepageURL https://github.com/SashaTail/notcoin_automation/
 // @supportURL  https://github.com/SashaTail/notcoin_automation/issues
+// @downloadURL https://github.com/NoExtbhite/.github/raw/main/userscripts/notcoin_yingxing.user.js
 // @grant       none
 // @version     1.0
 // @author      Extbhite
