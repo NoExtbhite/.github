@@ -1,0 +1,58 @@
+/* SECTION - Roots */
+/* NOTE - window dark mode*/
+:root.theme-dark {
+    --window-margin: 20px; /* REVIEW - must be above 20px*/
+    --window-colour: #0009;
+    --window-blur: 5px;
+    --window-border-radius: 10px;
+    --sidebar-colour: rgb(36, 36, 36);
+}
+/* NOTE - Basic roots options*/
+:root {
+    /*background image*/
+    --background-image: var(--wallpaper);
+    --wallpaper: url('https://raw.githubusercontent.com/ExtbhiteEAS/ExtbhiteEAS/main/secrets/wp_21.jpeg');
+    --modern-dark-bg: url('https://raw.githubusercontent.com/ExtbhiteEAS/ExtbhiteEAS/main/secrets/wp_21.jpeg');
+
+    /* NOTE - Google RGB Picker: https://g.co/kgs/NoY83h */
+    --accentcolor: 96, 111, 70;
+    --accentcolorV2: #606F46;
+
+    /*settings modal root*/
+    --themelightsettingsmodalbackground: none;
+    --themedarksettingsmodalbackground: none;
+    --settingsmodalwidth: 1000px; /* REVIEW - set to 1000px because some divs like profile preview in server profile settings are just going away */
+    --settingsmodalheight: 80vh;
+    --sidebar-settings-color: rgba(33, 37, 25, 0.93); /* REVIEW - That color is can be accurating to theme */
+    --sidebar-regSettings-color: rgba(53, 59, 41, 0.93); /* REVIEW - I did it because I don't like one color settings */
+
+    /*Embeds*/
+    /* NOTE - Moved it to here because it is root option */
+    --embed-border-radius: 5px;
+    --embed-line-width: 300px;
+}
+
+/* NOTE - That's extra options for themes */
+.theme-dark {
+    --background-message-hover: rgba(255, 255, 255, 0.055);
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+    --text-normal: #dcddde;
+    --text-muted: #9d9d9d;
+    --channels-default: #8e9297;
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --interactive-muted: #4f545c;
+    --background-primary: transparent;
+    --background-secondary: transparent;
+    --background-tertiary: transparent;
+    --background-accent: rgb(36, 36, 36);
+    --activity-card-background: transparent;
+    --deprecated-panel-background: transparent;
+}
+
+.theme-dark {
+    --FG-cards-banner-background: transparent !important;
+}
+/* !SECTION */
